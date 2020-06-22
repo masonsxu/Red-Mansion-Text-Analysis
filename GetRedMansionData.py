@@ -21,7 +21,7 @@ def get_html(url):
         return 'please inspect your url or setup'
 
 
-bookFile = open('RedMansion.txt', 'a+', encoding='utf-8')
+bookFile = open('./data/RedMansion_origin.txt', 'a+', encoding='utf-8')
 
 
 def get_chapter_data(url):
